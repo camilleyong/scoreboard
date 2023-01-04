@@ -7,6 +7,8 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
+    position: relative;
+    bottom: 50px;
 }
 
 h3 {
@@ -46,5 +48,17 @@ h2 {
     text-align: center;
     color: white;
     font-size: 50px;
-    padding-top: 10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.title {
+    color: darkviolet;
+    background-color: #9AABD8;
+    font-style: italic;
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 5px 10px black;
 }
