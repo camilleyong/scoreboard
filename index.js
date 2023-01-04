@@ -53,11 +53,16 @@ function resetGame() {
     guestScore.textContent = 0
     score = 0
     guest = 0
+    document.body.onclick = () => {
+        clearTimeout(timer)
+        timer = 31
+        setTime()
+    }
 }
 
 // TIMER
 let time = document.getElementById("timer")
-let timer = 60;
+let timer = 31;
 
 function setTime() {
   let timerInterval = setInterval(function() {
@@ -72,6 +77,7 @@ function setTime() {
     }
   }, 1000); // <---- time in miliseconds
 }
+
 
 function sendMessage () {
     time.textContent = "GAME OVER!"
