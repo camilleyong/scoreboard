@@ -7,6 +7,7 @@
     </head>
     
     <body>
+        <h2 id="timer">TIMER:</h2>
         <div class="container">
             <div>
                 <h3>HOME</h3>
@@ -15,6 +16,11 @@
                 <button id="byTwo" onclick="homeScoreTwo()">+2</button>
                 <button id="byThree" onclick="homeScoreThree()">+3</button>
             </div>
+
+            <div>
+                <button class="reset" id="resetBtn" onclick="resetGame()">NEW GAME</button>
+            </div>
+
             <div>
                 <h3>GUEST</h3>
                 <h1 class="score" id="guest-score">0</h1>

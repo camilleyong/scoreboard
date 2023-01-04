@@ -22,6 +22,7 @@ h3 {
     font-size: 40px;
     height: 80px;
     padding: 26px 5px 5px 5px;
+    border-radius: 5px;
 }
 
 button {
@@ -31,4 +32,18 @@ button {
     background-color: #0C4A6E;
     padding-right: 10px;
     text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.reset {
+    font-size: 30px;
+    position: relative;
+    top: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
 }
